@@ -1,0 +1,122 @@
+body{
+  background-color: #ffeead;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+header{
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  text-align: left;
+  border-radius: 10px;
+  height: 100px;
+  background: #ff6f69;
+  line-height: 30px;
+  padding-left: 15px;
+  padding-right: 10px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 5;
+}
+h1{
+  position: absolute;
+  margin-bottom: 15px;
+  padding-top: 10px;
+  font-size: 44px;
+}
+#banner{
+  position: relative;
+  line-height: 15px;;
+  font-size: 14px;
+  text-align: right;
+  padding-top: 10px;
+}
+footer{
+  border-bottom: 0px;
+  text-align: center;
+  position: relative;
+  margin-left: auto;
+  padding-top: 15px;
+  padding-bottom: 0px;
+}
+.content{
+  position: relative;
+  clear: both;
+  margin-left: 14%;
+  margin-right: 14%;
+  font-size: 22px;
+  background-color: #88d8b0;
+}
+h2{
+  margin-top: 15px;
+  padding-top: 5px;
+  padding-left: 5px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+hr{
+  border-color: #ffcc5c;
+  margin-top: 0px;
+}
+.inside{
+  font-size: 15px;
+  margin-left: 6%;
+  margin-right: 6%;
+  padding-bottom: 3%;
+}
+.inside a{
+  color: black;
+}
+.inside a:visited{
+  color: black;
+}
+.bottom{
+  font-size: 13px;
+  font-style: italic;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+}
+.resume{
+  padding-top: 15px;
+}
+h3{
+  margin-top: 10px;
+  padding-top: 5px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+ul{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.text{
+  padding-left: 10px;
+}
+.links{
+  display: inline;
+  padding-left: 2px;
+  padding-right: 10px;
+}
+.linksmain{
+  margin-top: 32px;
+}
+a, a:visited{
+  text-decoration: none;
+  color: #ffcc5c;
+}
+.rotateimg90 {
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+img{
+  width: 50%;
+  height: 40%;
+  display: block;
+  margin: auto;
+  margin-top: -20%;
+  margin-bottom: -15%;
+  z-index: -1;
+}
